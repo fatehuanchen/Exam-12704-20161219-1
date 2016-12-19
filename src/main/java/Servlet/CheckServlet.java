@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
-
+ 
 @WebServlet("/CheckServlet")
 public class CheckServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
