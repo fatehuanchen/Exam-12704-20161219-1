@@ -38,7 +38,7 @@ public class CheckServlet extends HttpServlet {
 		try {
 
 			PreparedStatement  ps = (PreparedStatement) conn.prepareCall("select first_name from customer");
-			System.out.println(conn);
+			
 			 rs = ps.executeQuery();
 			while (rs.next()) {
 				String str = rs.getString("first_name");
